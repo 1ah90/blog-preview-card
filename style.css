@@ -29,8 +29,12 @@ body{
     background-color: #eee;
     border-radius: var(--radios);
     box-shadow: 7px 7px black;
+    transition: 0.3s;
 }
 
+.card:hover{
+    padding: 30px;
+}
 header svg{
     border-radius: calc(var(--radios) - 10px);
 }
@@ -42,6 +46,11 @@ section h4 {
     display: inline;
     padding: 7px 15px 7px;
     border-radius: calc( var(--radios) - 20px);
+}
+section h2:hover{
+    transition: 0.3s;
+
+    color: var(--Yellow);
 }
 section p:first-of-type{
     margin: 20px 0 20px 0 ;
